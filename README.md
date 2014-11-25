@@ -2,6 +2,7 @@
 
 * [sferik rails admin](https://github.com/sferik/rails_admin/wiki/Manually)
 * [token auth without devise](http://www.brianauton.com/posts/token-authentication-devise.html)
+* [Code School Blog on Token Auth](https://www.codeschool.com/blog/2014/02/03/token-based-authentication-rails/)
 
 
 ### Relevant Gems
