@@ -20,14 +20,17 @@ Goal is to have token authentication with different roles: admins can do some th
 
 `enum role: [:admin, :employee]`
 
-2. Create nested routes:
+<!--2. Create nested routes:-->
 
-`namespace :admin do`
+<!--`namespace :admin do`-->
 
-`  resources :dashboards`
+<!--`  resources :dashboards`-->
 
-`end`
+<!--`end`-->
 
 3. Generate migration
 
 ` rails g migration CreateDashboard`
+
+4. Create dashboards_controller
+5. 
