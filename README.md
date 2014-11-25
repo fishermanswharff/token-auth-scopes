@@ -12,3 +12,13 @@
 * [Cancan](http://www.rubydoc.info/github/ryanb/cancan)
 * [Warden](https://github.com/hassox/warden/wiki/Overview)
 * [JWT](https://github.com/progrium/ruby-jwt)
+
+### Steps!
+
+1. Add to user model:
+`enum role: [:admin, :employee]`
+1. Create nested routes:
+`namespace :admin do`
+`  resources :posts, :comments`
+`end`
+1.
