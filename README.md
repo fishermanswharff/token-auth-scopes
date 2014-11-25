@@ -16,21 +16,15 @@
 ### Steps to add admins with a dashboard
 Goal is to have token authentication with different roles: admins can do some things that users cannot.
 
-1. Add to user model:
+Add to user model:
 
 `enum role: [:admin, :employee]`
 
-<!--2. Create nested routes:-->
 
-<!--`namespace :admin do`-->
-
-<!--`  resources :dashboards`-->
-
-<!--`end`-->
-
-3. Generate migration
+Generate migration
 
 ` rails g migration CreateDashboard`
 
-4. Create dashboards_controller
-5. 
+Create dashboards_controller
+
+In dashboards_controller, add `:before_action` 
