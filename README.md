@@ -13,12 +13,17 @@
 * [Warden](https://github.com/hassox/warden/wiki/Overview)
 * [JWT](https://github.com/progrium/ruby-jwt)
 
-### Steps!
+### Steps to add admins with a dashboard
 
 1. Add to user model:
+
 `enum role: [:admin, :employee]`
+
 1. Create nested routes:
+
 `namespace :admin do`
-`  resources :posts, :comments`
+`  resources :dashboards`
 `end`
-1.
+
+1. Generate migration
+` rails g migration CreateDashboard`
