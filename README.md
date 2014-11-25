@@ -1,5 +1,6 @@
 ## Token Authentication with User Scopes
 
+* [comprehensive guide](http://railsapps.github.io/rails-authorization.html)
 * [sferik rails admin](https://github.com/sferik/rails_admin/wiki/Manually)
 * [active admin](https://github.com/activeadmin/activeadmin)
 * [Active Admin vs Rails Admin](http://www.slideshare.net/benoitbenezech/rails-admin-overbest-practices)
@@ -19,7 +20,6 @@ Goal is to have token authentication with different roles: admins can do some th
 Add to user model:
 
 `enum role: [:admin, :employee]`
-
 
 Generate migration
 
