@@ -11,3 +11,4 @@
 ### Relevant Gems
 * [Cancan](http://www.rubydoc.info/github/ryanb/cancan)
 * [Warden](https://github.com/hassox/warden/wiki/Overview)
+* [JWT](https://github.com/progrium/ruby-jwt)
