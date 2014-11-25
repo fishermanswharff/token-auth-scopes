@@ -23,10 +23,16 @@ Add to user model:
 
 `enum role: [:admin, :employee]`
 
-Generate migration
+Generate migration to create Dashboard (for admins)
 
 ` rails g migration CreateDashboard`
 
-Create dashboards_controller
+Create `dashboards_controller.rb` and a private method called `:admin_only`, which needs to:
+* get the token out of request.headers
+* find the user by token
+* check the user's role (getting the text from enum)
+* return the response based upon the user's role (201 would be successful for an admin; 401 would be for unauthorized access)
 
-In dashboards_controller, add `:before_action` 
+In `dashboards_controller.rb`, add `before_action: :admin_only` 
+
+
