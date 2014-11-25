@@ -11,6 +11,7 @@
 * [Cancan](http://www.rubydoc.info/github/ryanb/cancan)
 * [Warden](https://github.com/hassox/warden/wiki/Overview)
 * [JWT](https://github.com/progrium/ruby-jwt)
+* [Declarative Authorization](https://github.com/stffn/declarative_authorization)
 * [sferik rails admin](https://github.com/sferik/rails_admin/wiki/Manually)
 * [active admin](https://github.com/activeadmin/activeadmin)
 * [Active Admin vs Rails Admin](http://www.slideshare.net/benoitbenezech/rails-admin-overbest-practices)
